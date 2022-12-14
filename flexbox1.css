@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');    
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    max-width: 900em;
+}
+
+body{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #282B35;
+}
+.body{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #282B35;
+}
+.container{
+    position: relative;
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container .card{
+    position: relative;
+    max-width: 1000px;
+    background-color: rgba(255,255,255,0.4);
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+}
+
+.container .card .imgbx{
+    max-width: 300px;
+    flex: auto;
+}
+
+.container .card .imgbx img{
+    max-width: 100%;
+}
+
+.container .card .content{
+    margin-left: 20px;
+}
+
+@media (max-width: 991px){
+    .container{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px){
+    .container{
+        flex-direction: column;
+        }
+    .container .card{
+        flex-direction: column;
+        max-width: 350px;
+        }
+    .container .card .imgbx{
+        max-width: 100%;
+        }
+    .container .card .content{
+        margin-left: 0px;
+    }
+
+}
+/* Header styles begins here.*/
+.background_img{
+    /* background-color: rgba(20, 26, 33, 0.9); */
+    background-color: #282B35;
+    /* background-image: url("pint3.jfif"); */
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 60px;
+    /* max-width: 900em; */
+}
+
+.store-main-header {
+    background-color: rgba(0, 0, 0, .0);
+    background-image: url("geelblom2.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    object-position: bottom;
+    padding-bottom: 60px;
+    border-bottom: 5px solid white;
+}
+
+.nav-panel{
+    background-color: rgba(10, 10, 10, 0.5)
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3)
+    
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3)
+}
+
+.page-title { 
+    text-align: center;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight:normal;
+    color: white;
+}
+
+.title-large {
+    font-size: 5em;
+}
+
+.footer-name { 
+    margin: 0;
+    font-size: 3em;
+    font-family: 'Montserrat', sans-serif;    
+    font-weight:bolder;
+    color: black;
+    font-style: italic;
+}
+
+.main-footer {
+    /* background-color: #fcb423; */
+    background-image: url("geelblom3.jpg");
+    color: #ffffff;
+    padding: 0.5em;
+    background-size: cover;
+
+}
+
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+}
+.footer-list li{
+    display: inline-block;
+    padding: 0 .5em;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration:underline;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.footer-list{
+    text-align: center;
+}
